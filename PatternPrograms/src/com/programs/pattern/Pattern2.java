@@ -5,7 +5,7 @@ public static void main(String[] args){
  System.out.println("Enter the no. of lines");
  Scanner sc=new Scanner(System.in);
  m=sc.nextInt();
-i=m;
+
      for( j=i;j>0;j--){
           for( i=m;i>0;i--){
          System.out.print(" ");
