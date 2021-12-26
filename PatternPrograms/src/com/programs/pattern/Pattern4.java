@@ -1,3 +1,4 @@
+package com.programs.pattern;
 import java.util.*;
 class Pattern4{
     public static void main(String [] args){

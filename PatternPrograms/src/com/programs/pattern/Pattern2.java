@@ -1,7 +1,8 @@
+package com.programs.pattern;
 import java.util.*;
 class Pattern2{
 public static void main(String[] args){
- int m,i,j;
+ int m,i=0,j;
  System.out.println("Enter the no. of lines");
  Scanner sc=new Scanner(System.in);
  m=sc.nextInt();
