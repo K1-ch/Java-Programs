@@ -6,19 +6,28 @@ public class Num1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i,rem=0;
+		int i;
 		Scanner sc=new Scanner(System.in);
-		i=sc.nextInt();
-		while(i!=0) {
-			i=i%10;
-			rem=rem+rem*10;
-			i=i/10;
+		i=sc.nextInt();	
+		String intString=Integer.toString(i);
+		String binaryString=Integer.toBinaryString(i);
+		boolean decimalPalindrome=isPalindrome(intString);
+		boolean binaryPalindrome=isPalindrome(binaryString);	
+		if(decimalPalindrome && binaryPalindrome) {
+			System.out.println("Yes");
+		}else {
+			System.out.println("No");
 		}
-		if(rem==i)
-			System.out.println("palindrome num");
-		else
-			System.out.println(" not palindrome num");
-
 	}
+	public static boolean isPalindrome(String str) {
+		String revString="";
+		for(int j=str.length()-1;j>=0;j--) {	
+			revString+=str.charAt(j);	
+		}
+		return str.compareTo(revString.toString())==0?true : false;
+		
+		
+	}
+		
 
 }
