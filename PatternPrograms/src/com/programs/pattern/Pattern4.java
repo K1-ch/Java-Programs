@@ -1,6 +1,6 @@
 package com.programs.pattern;
 import java.util.*;
-class Pattern4{
+class Pattern4{ 
     public static void main(String [] args){
     int n,i,j;
     System.out.println("Enter the no. of lines");
