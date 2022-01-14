@@ -8,10 +8,8 @@ public class Lcm {
 		n=sc.nextInt();
 		m=sc.nextInt();
 		for(int i = 1; i <= n && i <= m; i++) {
-		      // Checks if i is factor of both integers
 		      if(n % i == 0 && m % i == 0)
 		        gcd = i;
-		  
 		    }
 
 		    int lcm = (n * m) / gcd;
