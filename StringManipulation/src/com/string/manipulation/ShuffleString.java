@@ -1,6 +1,7 @@
+//Shuffle String according to array
 package com.string.manipulation;
 import java.util.*;
-public class SortString {
+public class ShuffleString {
 public static void main(String[] args) {
 	String s,newString="";
 	char tmp;
