@@ -2,7 +2,13 @@ package com.abstraction.programs;
 
 //abstract method is used when we want to show only essential feature to user
 abstract class BankAtm {
+	int a = 1000;
+
 	abstract void password();
+
+	public void printReciept() {
+		System.out.println("Printing reciept" + a);
+	}
 
 	// implementation of abstract method is responsibility of child class
 
