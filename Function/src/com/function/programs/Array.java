@@ -1,4 +1,4 @@
-/*Program to print transpose of array using methods */
+//Program to print transpose of array using methods 
 package com.function.programs;
 
 import java.util.*;
