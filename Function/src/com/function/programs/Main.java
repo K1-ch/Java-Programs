@@ -1,11 +1,25 @@
 package com.function.programs;
 
-public class Main {
+import java.util.Arrays;
 
+public class Main {
+	static int[] a = { 1, 5, 2, 5, 9, 10 };
 	public static void main(String[] args) {
-		Sum s=new Sum();
-		System.out.println(s.sum(10, 20));
-        System.out.println(s.sub(90, 98));
+		callMethod();
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
+
+	}
+
+	public int[] sortArray(int[] a) {
+		Arrays.sort(a);
+		return a;
+	}
+
+	public static void callMethod() {
+       Main main = new Main();
+       main.sortArray(a);
 	}
 
 }
