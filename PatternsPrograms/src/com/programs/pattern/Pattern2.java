@@ -2,16 +2,16 @@ package com.programs.pattern;
 import java.util.*;
 class Pattern2{
 public static void main(String[] args){
- int m,i=0,j;
- System.out.println("Enter the no. of lines");
- Scanner sc=new Scanner(System.in);
- m=sc.nextInt();
+	Scanner sc = new Scanner(System.in);
+	int n = sc.nextInt();
+	for (int i = 0; i <=n; i++) {
+		
+		for (int j = i; j > 0; j--) {
+			System.out.print(" ");
+			System.out.print("*");
+		}
 
-     for( j=i;j>0;j--){
-          for( i=m;i>0;i--){
-         System.out.print(" ");
-         System.out.print("*");
-     }
-     System.out.print("\n");
- }
-}}
+		System.out.print("\n");
+	}
+
+ }}
