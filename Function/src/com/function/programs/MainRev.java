@@ -1,4 +1,5 @@
 package com.function.programs;
+
 //taking a char array , rev it & return a string
 class Rev {
 	String revString(char[] string) {
@@ -9,7 +10,7 @@ class Rev {
 			m++;
 		}
 
-		return String.valueOf(str);//convert char array to string 
+		return String.valueOf(str);// convert char array to string
 	}
 }
 

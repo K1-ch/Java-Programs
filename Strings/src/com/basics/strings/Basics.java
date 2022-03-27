@@ -1,3 +1,4 @@
+//Number of words in string
 package com.basics.strings;
 import java.util.Scanner;
 public class Basics {

@@ -1,5 +1,5 @@
 package com.fun.programs;
-
+// to find sum and mul of two num using fun 
 public class Sum {
 
 	public static long sumOrProduct(int n, int q) {

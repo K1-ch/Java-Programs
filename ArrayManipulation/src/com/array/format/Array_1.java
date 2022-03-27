@@ -14,7 +14,6 @@ public class Array_1 {
 				System.out.print(z[i][j]+" ");    
 			}    
 			System.out.println();//new line    
-			}    	
-	}
+			}    		}
 
 }

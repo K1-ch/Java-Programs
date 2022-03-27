@@ -21,6 +21,7 @@ public class StringFun {
 		//repalce the first string or char with second
 		/*(6).*/System.out.println(s.lastIndexOf("ram"));
 		//returns the last index of string or char
-			}
+		
+					}
 
 }

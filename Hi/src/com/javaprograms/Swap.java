@@ -2,7 +2,6 @@
 package com.javaprograms;
 
 import java.util.Scanner;
-
 class Solution {
 	public static void swapNumber(int x, int y) {
 		x = x + y;
@@ -15,9 +14,7 @@ class Solution {
 		System.out.print(a[0] + " " + a[1]);
 	}
 }
-
 public class Swap {
-
 	public static void main(String[] args) {
 		Solution p = new Solution();
 
