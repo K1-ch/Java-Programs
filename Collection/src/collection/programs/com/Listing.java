@@ -11,6 +11,8 @@ public class Listing {
 		a.add(7);
 		a.add(67);
 		System.out.println(a);
+		for(int x1:a)
+			System.out.println(x1);
 		
 	}
 
