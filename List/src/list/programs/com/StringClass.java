@@ -10,12 +10,13 @@ class CharList{
 	s.add("Pooja");
 	s.add("Laxmi");
 	s.add("Rahul");
+
 	s.remove(0);//remove an element in List
 		System.out.println(s);
 	s.forEach(System.out::println);
 		}
 }
-public class IntegerClass {
+public class StringClass {
 
 	public static void main(String[] args) {
 	CharList s=new CharList();
