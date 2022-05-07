@@ -11,8 +11,9 @@ public class Listing {
 		a.add(7);
 		a.add(67);
 		System.out.println(a);
-		for(int x1:a)
+		for(int x1:a)//printing the list of values with for each loop
 			System.out.println(x1);
+		
 		
 	}
 

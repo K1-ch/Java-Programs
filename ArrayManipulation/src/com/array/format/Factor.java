@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Factor {
 	public static void main(String[] args) {
 		int n,i=1;
+		
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
 		while(i<=n) {
@@ -10,6 +11,7 @@ public class Factor {
 				System.out.println(i);
 			i++;
 		}
+		
 	}
 
 }
