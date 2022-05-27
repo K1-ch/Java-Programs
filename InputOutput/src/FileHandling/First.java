@@ -3,7 +3,7 @@ package FileHandling;
 //Importing input output classes
 import java.io.*;
 //Java Program to illustrate Reading from FileReader
-//using BufferedReader Class
+//using BufferedReader Class means line by line 
 
 public class First {
 

@@ -1,6 +1,6 @@
 package scjp;
 
-class Solution1{
+final class Solution1{
 	
 	private  char m;
 	
