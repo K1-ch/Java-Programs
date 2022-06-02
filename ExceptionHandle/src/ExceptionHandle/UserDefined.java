@@ -7,7 +7,7 @@ class Vote{
 	}
 	void cast() throws Throwable{
 		if(age<18) {
-			throw new Throwable("U cant vote");
+			throw new Throwable();
 		}
 	}
 }

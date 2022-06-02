@@ -1,6 +1,6 @@
 package multithreading;
 
-class Example {
+class Example extends Thread {
 	int i=1;
 	void show() throws InterruptedException{
 		while( i<=5) {
@@ -11,7 +11,7 @@ class Example {
 	}
 
 }
-class Example1 {
+class Example1  extends Thread{
 	int i=1;
 	void show() throws InterruptedException{
 		while(i<=5) {
@@ -27,12 +27,10 @@ public class FirstThread {
 	public static void main(String[] args) throws InterruptedException {
 		Example s=new Example();
 		Example1 t=new Example1();
-		Thread t1=new Thread();
-		Thread t2=new Thread();
-	t1.start();
-	t2.start();
-	s.show();
-	t.show();
+			s.start();
+			s.show();
+			t.start();
+			t.show();
 	}
 
 }
