@@ -10,6 +10,8 @@ public static void main(String[] args) {
 		n=n/10;
 		count++;
 	}
-	while(count!=0)
+	while(count!=0) {
+		
+	}
         }
 }

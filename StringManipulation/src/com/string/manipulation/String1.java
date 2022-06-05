@@ -1,11 +1,19 @@
 package com.string.manipulation;
+
 import java.util.*;
-public class String1 {
-public static void main(String[] args) {
-	String s;
-	Scanner sc=new Scanner(System.in);
-	s=sc.nextLine();
-	System.out.println(s);
-	System.out.println(s.length());
+
+class UserMainCode {
+	public int howManyVowels(String input1) {
+	
+		throw new UnsupportedOperationException("howManyVowels");
+		
+		
+	}
 }
+
+public class String1 {
+	public static void main(String[] args) {
+		UserMainCode s = new UserMainCode();
+		s.howManyVowels("Wipro");
+	}
 }
