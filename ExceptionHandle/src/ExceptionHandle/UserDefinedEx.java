@@ -1,5 +1,5 @@
 package ExceptionHandle;
-
+//user defined exception
 class NewException extends Exception {
 
 	int x;
@@ -22,7 +22,7 @@ public class UserDefinedEx {
 
 			throw new NewException(5);
 
-		} catch (NewException e) {
+		} catch (NewException e) {//the message is coming here
 
 			System.out.println(e);
 		}

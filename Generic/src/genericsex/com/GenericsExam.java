@@ -1,5 +1,5 @@
 package genericsex.com;
-
+//generic method
 class Test1<T, U> {
 	T obj1;
 	U obj2;
