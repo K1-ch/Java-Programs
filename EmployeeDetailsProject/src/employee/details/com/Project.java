@@ -1,5 +1,5 @@
 package employee.details.com;
-
+//encapsulation
 public class Project extends Employee {
 	private String proName;
 	private String id;

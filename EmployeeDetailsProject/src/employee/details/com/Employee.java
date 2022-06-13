@@ -16,23 +16,18 @@ public class Employee extends Organization {
 
 	@Override
 	void EmpName() {
-		String name = "Varun";
-		System.out.println("Employee name=" + name);
+		System.out.println("EmpName: Sumit");
 	}
 
 	@Override
 	void employeeId() {
-		String empId = "0s230kie";
-		System.out.println("Employee Id=" + empId);
+		System.out.println("EmpID : E1012");
 	}
 
 	@Override
 	void work() {
-		String work = "Testing";
-		System.out.println("Work of Employee=" + work);
-	}
-	
-	   
+		System.out.println("Designation : Engineer");
 
+	}
 
 }
