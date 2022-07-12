@@ -9,9 +9,7 @@ class ExceptionEx {
 
 	
 	void exception() {
-		System.out.println("This is starting of Division");
-
-		try {
+			try {
 			System.out.println("Enter values");
 			a = sc.nextInt();
 			b = sc.nextInt();
@@ -21,17 +19,16 @@ class ExceptionEx {
 
 			System.out.println(ae.getMessage());
 
-			System.out.println("Divide by Zero");
+			
 		} catch (Throwable ae) {
 			System.out.println(ae.getMessage());
 			System.out.println("Enter any integer value");
 
 		} finally {
-			System.out.println("Always execute either exception or no exception");
+			System.out.println("final block");
 			sc.close();
 		}
-		System.out.println("This is ending of division function");
-
+		
 	}
 }
 
