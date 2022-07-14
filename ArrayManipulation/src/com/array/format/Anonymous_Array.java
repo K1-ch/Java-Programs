@@ -1,5 +1,7 @@
 package com.array.format;
+
 //Anonymns Array Use in program
+
 class Implement{
 	int sum(int x[]) {
 		int total=0;
