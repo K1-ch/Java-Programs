@@ -1,54 +1,39 @@
 package com.javaprograms.hi;
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
 
 class Result {
+	public double lastlength(int nums1[], int nums2[]) {				
+		ArrayList<Integer> s = new ArrayList<>();
+		for (int x : nums1)
+			s.add(x);
+		for (int x : nums2)
+			s.add(x);
 
-    /*
-     * Complete the 'marsExploration' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts STRING s as parameter.
-     */
-
-    public static int marsExploration(String s) {
-    int m=s.length()/3;
-    int count=0;
-    
-    for(int i=0;i<s.length();i++) {
-    	if(s.charAt(i)!='S'||s.charAt(i)!='0') {
-    		count++;
-    	}
-    }
-	return m-count;
-
-    }
+		Collections.sort(s);
+		
+		int l=s.size();
+		double d=0;
+		
+		if(l%2==0) {
+		 d=(s.get((l/2)-1)+s.get(l/2))/2.0;
+		
+		 
+			return d;
+		}
+		d=s.get(l/2);
+		return d;
+				
+	}
 
 }
 
 public class Solution {
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-
-        String s = bufferedReader.readLine();
-
-        int result = Result.marsExploration(s);
-
-        bufferedWriter.write(String.valueOf(result));
-        bufferedWriter.newLine();
-
-        bufferedReader.close();
-        bufferedWriter.close();
-    }
+	public static void main(String[] args) {
+		Result s = new Result();
+		int a[] = { 1,2 };
+		int b[] = { 3,4 };
+		System.out.println(s.lastlength(a, b));
+		
+	}
 }
