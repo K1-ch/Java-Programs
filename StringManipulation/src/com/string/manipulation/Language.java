@@ -1,32 +1,29 @@
 package com.string.manipulation;
 
-import java.util.*;
-import java.util.function.Function;
-import java.util.stream.Collectors;
+import java.math.BigInteger;
+import java.util.Arrays;
 
-class Main{
-	 public int majorityElement(int[] nums) {
-		 String k=Arrays.toString(nums);
-		 char l[]=k.toCharArray();
-	 
-		 public static <Character> Map<Character, Long >  frequencyMap(Stream<Character> elements) {
-		        return elements.collect(
-		            Collectors.groupingBy(
-		            Function.identity(),
-		            HashMap::new, // can be skipped
-		            Collectors.counting()
-		            )
-		        );
-		 }
-	        
-	    }
-	 
+class Main {
+	int roll ;
+	String name ;
+
+	void style(int roll, String name) {
+        roll=roll;
+        name=name;
+		
+
+	}
+	void print() {
+		System.out.println(roll + " "+name);
+	}
+
 }
+
 public class Language {
 	public static void main(String[] args) {
-		Main s=new Main();
-		int a[]= {1,1,1,1,2,2,3};
-		System.out.println(s.majorityElement(a));
+		Main s = new Main();
+        s.style(0, "ramesh");
+		s.print();
 	}
 
 }
