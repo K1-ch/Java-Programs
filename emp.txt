@@ -1,0 +1,16 @@
+Enter the empid,name,basic of the Employee
+1201
+rahul
+120000
+empid  ==  1201
+name ==  rahul
+basic of the Employee  ==  120000
+public class CommandLine{
+    public static void main(String[] args){
+        int sum=0;
+        for(String x:args)
+		sum += Integer.parseInt(x);
+		System.out.println("The sum of arguments is: " + sum);
+
+    }
+}
