@@ -1,6 +1,6 @@
 package kiet.edu;
 
-import program.SumNum;
+import program.Sum;
 
 class F {
 

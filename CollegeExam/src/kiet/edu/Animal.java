@@ -11,7 +11,7 @@ class AnimalName {
 class Dog extends AnimalName {
 	@Override
 	void legs() {
-		super.number = 10;
+		super.number = 4;
 
 		System.out.println("Dog has " + number + " Legs");
 	}

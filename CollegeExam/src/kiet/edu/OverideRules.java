@@ -28,7 +28,7 @@ public class OverideRules {
         // to a Child object Child's show()
         // is called. This is called RUN TIME
         // POLYMORPHISM.
-		Child s1 = new Child();
+		Parent s1 = new Child();
 		s1.show();
 	}
 
