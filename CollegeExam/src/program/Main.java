@@ -21,6 +21,7 @@ class Solution21 {
 			nums[i]=s.get(i);
 		}
 		System.out.println(Arrays.toString(nums));
+	
 	}
 }
 
