@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<title>Login - Shopping Portal</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous" />
+</head>
+<body>
+	<div class="container-fuild text-center">
+		<form th:action="@{/register}" method="post" th:object="${user}"
+			style="max-width: 350px; margin: 0 auto;">
+
+			<p>
+				<input type="email" name="username" class="form-control"
+					th:field="*{username}" placeholder="Username" required autofocus />
+			</p>
+			<p>
+				<input type="text" name="firstName" class="form-control"
+					th:field="*{firstName}" placeholder="First Name" required autofocus />
+			</p>
+			<p>
+				<input type="text" name="lastName" class="form-control"
+					th:field="*{lastName}" placeholder="Last Name" required autofocus />
+			</p>
+
+			<p>
+				<input type="password" name="password" class="form-control"
+					th:field="*{password}" placeholder="Password" required autofocus />
+			</p>
+			<p>
+				<input type="password" name="confirmPassword" class="form-control"
+					th:field="*{confirmPassword}" placeholder="Confirm Password"
+					required autofocus />
+			</p>
+			<p>
+				<input type="tel" name="contactNumber" class="form-control"
+					th:field="*{contactNo}" placeholder="Contact Number" required
+					autofocus />
+			</p>
+
+			<div class="row">
+				<div class="col-sm">
+					<a th:href="@{/}">Back to Login</a>
+				</div>
+				<div class="col-sm">
+					<button type="submit" class="btn btn-success">Sign Up</button>
+				</div>
+
+			</div>
+
+		</form>
+
+
+	</div>
+</body>
+
+</html>
