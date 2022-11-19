@@ -18,7 +18,7 @@
 		<p th:if="${user.fullName}"
 			th:text="${user.fullName} + ' registered successfully. Please Sign In.'"
 			th:class="alert-success" />
-		<form th:action="@{/login}" method="post"
+		<form th:action="@{/signin}" method="post"
 			style="max-width: 350px; margin: 0 auto;">
 
 			<div class="border border-secondary p-3 rounded">

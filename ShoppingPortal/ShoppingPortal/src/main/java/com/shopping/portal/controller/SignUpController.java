@@ -18,7 +18,7 @@ public class SignUpController {
 	@Autowired
 	private SignUpServiceI signUpService;
 
-	@GetMapping("/login")
+	@GetMapping("/")
 	public String home(Model model) {
 		model.addAttribute("user", new User());
 		return "login";
